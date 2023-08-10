@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".equalBreakdown">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/totalBillEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Bill Amount"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/participantsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of People"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/equalBreakdownResultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <Button
+            android:id="@+id/calculateEqualBreakdownButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Equal Breakdown" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

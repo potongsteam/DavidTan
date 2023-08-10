@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="register" type="id" />
+    <item name="user" type="id" />
+    <item name="email" type="id" />
+    <item name="password" type="id" />
+    <item name="totalBill" type="id" />
+    <item name="parName" type="id" />
+    <item name="itemName" type="id" />
+    <item name="itemCost" type="id" />
+    <item name="addItem" type="id" />
+    <item name="submit" type="id" />
+    <item name="numOfPeople" type="id" />
+    <item name="breakdownList" type="id" />
+    <item name="breakdown" type="id" />
+    <item name="billTotal" type="id" />
+    <item name="NumOfPeople" type="id" />
+    <item name="percentage" type="id" />
+    <item name="amount" type="id" />
+    <item name="calculateResult" type="id" />
+    <item name="combine" type="id" />
+</resources>
